@@ -1,6 +1,6 @@
 FROM sidereal/jre8
 
-ENV RUNDECK_VER=3.0.0-20180727 RUNDECK_HOME=/opt/rundeck PATH=/opt/rundeck/tools/bin:${PATH} LANG=C.UTF-8
+ENV RUNDECK_VER=3.0.1-20180803 RUNDECK_HOME=/opt/rundeck PATH=/opt/rundeck/tools/bin:${PATH} LANG=C.UTF-8
 
 RUN set -x \
  && mkdir -p ${RUNDECK_HOME} \
